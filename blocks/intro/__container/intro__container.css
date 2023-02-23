@@ -1,17 +1,17 @@
 .intro__container {
-    margin: 0 auto;
-    padding: 80px 48px 102px;
-    max-width: 984px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .intro__container {
-      padding: 80px 24px 97px;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .intro__container {
-      padding: 64px 16px;
-    }
-  }
+	margin: 0 auto;
+	padding: 80px 48px 102px;
+	max-width: 984px;
+}
+
+@media screen and (max-width: 768px) {
+	.intro__container {
+		padding: 80px 24px 97px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.intro__container {
+		padding: 64px 16px;
+	}
+}
