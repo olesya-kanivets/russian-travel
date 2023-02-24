@@ -1,8 +1,18 @@
 .places__container {
-	padding: 92px 48px 102px;
+	/*padding: 92px 48px 102px;*/
 	max-width: 984px;
 	margin: 0 auto;
+	padding: 0 148px 80px 148px;
 }
+
+.places__container:first-child {
+	padding-top: 92px;
+}
+
+.places__container:last-child {
+	padding-bottom: 0;
+}
+  
 
 @media screen and (max-width: 1024px) {
 	.places__container {

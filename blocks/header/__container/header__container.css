@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	max-width: 1184px;
-	max-height: 52px;
+	min-height: 52px;
 	margin: 0 auto;
 	padding-top: 28px;
 }
@@ -22,7 +22,7 @@
 @media screen and (max-width: 767px) {
 	.header__container {
 		max-width: 288px;
-		max-height: 42px;
+		min-height: 42px;
 		padding-top: 16px;
 	}
 }

@@ -26,9 +26,3 @@
 		padding: 0 16px;
 	}
 }
-
-@media screen and (max-width: 320px) {
-	.photo-grid__container {
-		grid-gap: 8px;
-	}
-}
