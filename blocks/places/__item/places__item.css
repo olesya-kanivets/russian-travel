@@ -3,18 +3,21 @@
 	grid-template-columns: 460px 1fr;
 	grid-row-gap: 60px;
 	grid-column-gap: 40px;
-	margin-bottom: 80px;
+	padding-top: 80px;
 }
 
 .places__item:last-of-type {
-	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.places__item:first-of-type {
+	padding-top: 92;
 }
 
 @media screen and (max-width: 1024px) {
 	.places__item {
 		grid-row-gap: 48px;
 		grid-column-gap: 32px;
-		margin-bottom: 80px;
 	}
 }
 
@@ -22,7 +25,15 @@
 	.places__item {
 		grid-column-gap: 28px;
 		grid-template-columns: 300px 1fr;
-		
+
+	}
+
+	.places__item:last-of-type {
+		padding-bottom: 0;
+	}
+
+	.places__item:first-of-type {
+		padding-top: 88;
 	}
 }
 
@@ -30,6 +41,14 @@
 	.places__item {
 		grid-template-rows: 4fr;
 		grid-template-columns: 1fr;
-		padding-bottom: 48px;
+		padding-top: 50px;
+	}
+
+	.places__item:last-of-type {
+		padding-bottom: 0;
+	}
+
+	.places__item:first-of-type {
+		padding-top: 64;
 	}
 }
