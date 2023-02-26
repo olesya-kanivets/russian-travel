@@ -4,6 +4,7 @@
 	grid-row-gap: 60px;
 	grid-column-gap: 40px;
 	padding-top: 80px;
+	padding-bottom: 0;
 }
 
 .places__item:last-of-type {
@@ -11,7 +12,7 @@
 }
 
 .places__item:first-of-type {
-	padding-top: 92;
+	padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,16 +25,12 @@
 @media screen and (max-width: 768px) {
 	.places__item {
 		grid-column-gap: 28px;
-		grid-template-columns: 300px 1fr;
-
-	}
-
-	.places__item:last-of-type {
-		padding-bottom: 0;
+		grid-template-columns: auto 1fr;
+		padding-top: 73px;
 	}
 
 	.places__item:first-of-type {
-		padding-top: 88;
+		padding-top: 88px;
 	}
 }
 
@@ -44,11 +41,7 @@
 		padding-top: 50px;
 	}
 
-	.places__item:last-of-type {
-		padding-bottom: 0;
-	}
-
 	.places__item:first-of-type {
-		padding-top: 64;
+		padding-top: 64px;
 	}
 }
