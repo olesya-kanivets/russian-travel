@@ -5,9 +5,9 @@
 	padding: 92px 148px 0px 148px;
 }
 
-.places:last-child {
+/*.places:last-child {
 	padding-bottom: 0;
-}
+}*/
 
 
 @media screen and (max-width: 1024px) {
@@ -34,9 +34,5 @@
 
 	.places:first-child {
 		padding-top: 64px;
-	}
-
-	.places:last-child {
-		padding-bottom: 0;
 	}
 }

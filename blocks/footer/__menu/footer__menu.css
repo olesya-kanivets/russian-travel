@@ -1,12 +1,12 @@
 .footer__menu {
-	display: flex;
-	flex-direction: row;
-}
+    display: flex;
+    flex-direction: row;
+  }
 
-@media screen and (max-width: 550px) {
-	.footer__menu {
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
+@media screen and (max-width: 670px) {
+    .footer__menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
 	}
 }

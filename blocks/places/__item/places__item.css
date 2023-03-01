@@ -7,10 +7,6 @@
 	padding-bottom: 0;
 }
 
-.places__item:last-of-type {
-	padding-bottom: 0;
-}
-
 .places__item:first-of-type {
 	padding-top: 0;
 }
