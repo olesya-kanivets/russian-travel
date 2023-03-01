@@ -1,9 +1,9 @@
 .places__link {
 	font-size: 18px;
-	line-height: 30px;
-	font-weight: normal;
+	line-height: 22px;
+	font-weight: 400;
 	color: white;
-	margin-top: 16px;
+	margin-top: 12px;
 	transition: opacity .1s ease;
 }
 
