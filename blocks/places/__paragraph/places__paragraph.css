@@ -6,3 +6,16 @@
 .places__paragraph:last-child {
 	padding-bottom: 0;
 }
+
+@media screen and (max-width: 1025x) {
+	.places__paragraph {
+		padding-bottom: 27px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.places__paragraph {
+		padding-bottom: 25px;
+		
+	}
+}

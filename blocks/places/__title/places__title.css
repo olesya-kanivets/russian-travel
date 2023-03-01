@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 984px) {
 	.places__title {
 		font-size: 42px;
 		line-height: 46px;
