@@ -11,7 +11,7 @@
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 	.places__paragraph-wrapper {
 		padding: 0 16px;
 	}
