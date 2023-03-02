@@ -1,7 +1,13 @@
-.intro__list { /* начертание шрифта указано в лист_акцент*/
+.intro__list {
 	margin: 0;
-	padding: 0;
+	padding: 33px 0 0;
 	list-style-type: none;
 	font-size: 12px;
 	line-height: 18px;
+}
+
+@media screen and (max-width: 640px) {
+	.intro__list {
+		padding: 34px 0 0;
+	}
 }

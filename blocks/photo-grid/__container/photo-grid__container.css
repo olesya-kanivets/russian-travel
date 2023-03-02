@@ -8,20 +8,20 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
 	.photo-grid__container {
 		grid-gap: 14px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
 	.photo-grid__container {
 		padding: 0 24px;
 		grid-gap: 16px;
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 640px) {
 	.photo-grid__container {
 		padding: 0 16px;
 	}
