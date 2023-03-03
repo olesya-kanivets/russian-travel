@@ -9,5 +9,7 @@
 @media screen and (max-width: 640px) {
 	.intro__list {
 		padding: 34px 0 0;
+		margin: 0 auto;
+		width: 288px;
 	}
 }

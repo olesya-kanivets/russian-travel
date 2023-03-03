@@ -1,6 +1,5 @@
 .lead__image {
-	max-width: 100%;
-	
+	max-width: 100%;	
 	margin-top: 64px;
 }
 
@@ -14,13 +13,5 @@
 @media screen and (max-width: 767px) {
 	.lead__image {
 		margin-top: 40px;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 557px) {
-	.lead__image {
-		margin-top: 40px;
-		width: 100%;
 	}
 }
